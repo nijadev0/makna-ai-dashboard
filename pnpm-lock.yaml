@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@headlessui/vue': ^1.7.7
   '@rushstack/eslint-patch': ^1.1.4
   '@vitejs/plugin-vue': ^4.0.0
   '@vitejs/plugin-vue-jsx': ^3.0.0
@@ -20,6 +21,7 @@ specifiers:
   vue-router: ^4.1.6
 
 dependencies:
+  '@headlessui/vue': 1.7.7_vue@3.2.45
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
 
@@ -554,6 +556,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@headlessui/vue/1.7.7_vue@3.2.45:
+    resolution: {integrity: sha512-dkdNhJkxyT9rXW5fHx/MkKaM3U13P3duYuwoGTRmDGjE7xAsvcWOSJRJpw1AmCQTvjZF44bh2wSlySLaHW+WuQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.2.45
+    dev: false
 
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}

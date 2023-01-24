@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Layout from '@/components/templates/Layout.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <Layout title="Dashboard">
+    <h1 class="text-3xl">Halo</h1>
+  </Layout>
 </template>
